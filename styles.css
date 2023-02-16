@@ -1,0 +1,157 @@
+/* Font info: font-family: 'Poppins', sans-serif; (200, 400, 600)
+font-family: 'Varela Round', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #8B7E74;
+  color: #FFF8EA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 3%
+}
+
+
+
+.navbar-img {
+  height: 50px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-left: -380px;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+li,
+a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #FFF8EA;
+  font-size: 1.2rem;
+}
+
+.top-container {
+  display: flex;
+  padding: 50px 10%;
+  background-color: #C7BCA1;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2.8em;
+  color: #65647C;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  color: #F8EDE3;
+  font-size: 20px;
+  background: #8b7374;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #9f8772;
+  text-decoration: none;
+}
+
+.top-left {
+  padding-right: 5%;
+}
+
+.intro {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.kittens {
+  width: 350px;
+  border-radius: 15%;
+}
+
+
+.middle-container {
+  padding: 5% 5%;
+  background-color: #C7BCA1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.div1 {
+  flex-basis: 250px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+.pic1 {
+  height: 300px;
+  border-radius: 100%;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10% 10%;
+  background-color: #F1D3B3;
+  color: #65647C;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.quote {
+  font-size: 2em;
+}
+
+.speaker {
+  padding-left: 45%;
+}
+
+.bottom-container {
+  display: flex;
+  margin: none;
+  padding: none;
+  background-color: #8B7E74;
+}
+
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #FFF8EA;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  margin: 5%;
+  padding: 5%;
+  border: 2px solid #8b7374;
+  border-radius: 25px;
+}
+
+.words {
+  width: 60%;
+  color: #65647C;
+}
+
+footer {
+  text-align: center;
+  background-color: #C7BCA1;
+}
